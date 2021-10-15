@@ -11,7 +11,7 @@ local Clear = Instance.new("TextButton")
 local Execute = Instance.new("TextButton")
 
 ServerSided.Name = "ServerSided"
-ServerSided.Parent = game.Workspace
+ServerSided.Parent = game.CoreGui
 ServerSided.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
