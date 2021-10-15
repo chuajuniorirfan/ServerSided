@@ -9,6 +9,7 @@ local UIGradient = Instance.new("UIGradient")
 local Exit = Instance.new("TextButton")
 local Clear = Instance.new("TextButton")
 local Execute = Instance.new("TextButton")
+local ExecuterEvent = Instance.new("RemoteEvent")
 
 ServerSided.Name = "ServerSided"
 ServerSided.Parent = game.CoreGui
@@ -121,6 +122,10 @@ Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
 Execute.TextScaled = true
 Execute.TextSize = 14.000
 Execute.TextWrapped = true
+
+ExecuterEvent.Name = "ExecuterEvent"
+ExecuterEvent.Parent = Main
+
 
 local fake_module_scripts = {}
 
